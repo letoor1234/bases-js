@@ -13,8 +13,12 @@
 // texto (nombre de nuestra variable)
 // "Esto es..." (valor de nuestra variable)
 const texto = "Esto es un texto"; // tipo string
-const numero = 1.5;               // tipo number
-const booleano = false;           // tipo boolean (false, true)
+const numero = 1.5; // tipo number
+const booleano = false; // tipo boolean (false, true)
+
+// const : no se puede redefinir
+// let : si se puede redefinir el valor
+let arreglo = [];
 
 // console.log(numero);
 
@@ -30,9 +34,9 @@ const booleano = false;           // tipo boolean (false, true)
 // { } (bloque de codigo)
 // Declaración (o iniciacion)
 function myFuncion(nombre) {
-    console.log("Hola, ", nombre, ", que tal tu día?");
+  console.log("Hola, ", nombre, ", que tal tu día?");
 }
-// Invocación 
+// Invocación
 /*
     Es la utilización de una función
     que se escribió previamente

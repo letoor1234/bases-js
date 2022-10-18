@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "suma": "node suma.js"
+    "suma": "node suma.js",
+    "condiciones": "node condiciones.js",
+    "bucle": "node bucles.js"
   },
   "keywords": [],
   "author": "",
